@@ -12,7 +12,7 @@ P.S. Do you want to share the awesomeness? Tweet about it and be sure to tag @Av
 
 Avail welcomes contributors from anywhere and from any kind of education or skill level. We strive to create a community of developers that is welcoming, friendly and right.
 
-1. Before asking any questions regarding how the project works, please read through all the documentation and install the project on your own local machine to try it and understand how it basically works. Please ask your questions in open channels (Github and TG).
+1. Before asking any questions regarding how the project works, please read through all the documentation and install the project on your own local machine to try it and understand how it basically works. Please ask your questions in open channels (Github and Telegram).
 
 2. Before starting to work on an issue, you need to get the approval of one of the maintainers/team members. Therefore please ask to be assigned to an issue. If you don't but you still raise a PR for that issue, your PR can be rejected. This is a form of respect for the other contributors who could have already started to work on the same problem.
 
