@@ -11,10 +11,10 @@ import config from "../utils/config";
 import { sleep } from "@/utils/helper";
 import { Block, Matrix, Cell, BlockToProcess } from "@/types/light-client";
 import { runLC } from "@/repository/avail-light.repository";
-import Link from "next/link";
 import React from "react";
 import LogDisplay from "@/components/logs";
 import Hero from "@/components/sections/hero";
+import MacWindow from "@/components/macwindow";
 
 export default function Home() {
   const [network, setNetwork] = useState("Turing");
@@ -202,7 +202,7 @@ export default function Home() {
   };
 
   return (
-    <>
+    <MacWindow title={`Avail Light Client - ${network}`}>
       {/** Navbar with buttons and switcher */}
       <Navbar
         showButton
@@ -261,7 +261,7 @@ export default function Home() {
         </div>
         {/** core components */}
         {running && currentBlock != null ? (
-          <div className="flex lg:flex-row flex-col-reverse lg:h-screen w-screen">
+          <div className="flex lg:flex-row flex-col-reverse lg:h-screen w-full">
             <div className="lg:w-[50%] flex flex-col pt-10" id="blocks-section">
               <DsMatrix
                 matrix={matrix}
@@ -289,6 +289,6 @@ export default function Home() {
           <Hero running={running} currentBlock={currentBlock} />
         )}
       </main>
-    </>
+    </MacWindow>
   );
 }

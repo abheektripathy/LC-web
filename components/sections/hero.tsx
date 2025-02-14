@@ -37,7 +37,7 @@ export default function Hero({
             else’s full node. This can put <i>decentralized verification</i>{" "}
             into the palms of every user’s hand.
           </p>
-          <p className="text-xl  2xl:text-4xl  font-ppmori text-white !text-left lg:block text-opacity-80 ">
+          <p className="text-xl  2xl:text-2xl font-ppmori text-white !text-left lg:block text-opacity-80 ">
             Check us out on Twitter{" "}
             <Link
               href={"https://twitter.com/AvailProject"}
